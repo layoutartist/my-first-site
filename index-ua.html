@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Портфоліо Сергія, початківця frontend-розробника." />
+    <title>Сергій — Frontend-розробник</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="logo" href="#top" title="На початок сторінки">Сергій <span>↑</span></a>
+        <nav class="menu" aria-label="Головна навігація">
+          <a href="#about">Про мене</a>
+          <a href="#projects">Проєкти</a>
+          <a href="#contact">Контакти</a>
+        </nav>
+        <a class="nav-status" href="#contact"><span></span> Відкритий до проєктів</a>
+        <nav class="language-switch" aria-label="Оберіть мову">
+          <a href="index.html" lang="en">EN</a>
+          <a href="index-ua.html" lang="uk" aria-current="page">UA</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Frontend / UI / 2026</p>
+            <h1>Перетворюю ідеї<br /><em>на сайти, що працюють.</em></h1>
+            <p class="hero-description">
+              Я Сергій, початківець frontend-розробник. Вивчаю HTML і CSS, щоб створювати зрозумілі, швидкі та продумані інтерфейси.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#projects">Переглянути проєкти <span>↘</span></a>
+              <a class="button button-light" href="#about">Про мене</a>
+              <a class="button button-light" href="#contact">Зв’язатися</a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Абстрактна ілюстрація інтерфейсу">
+            <div class="art-label">зараз<br />навчаюся</div>
+            <div class="art-circle circle-one"></div>
+            <div class="art-circle circle-two"></div>
+            <div class="art-line line-one"></div>
+            <div class="art-line line-two"></div>
+            <div class="code-card">
+              <div class="code-top"><span></span><span></span><span></span><b>index.html</b></div>
+              <pre><code><i>&lt;section</i> class=<strong>"hero"</strong><i>&gt;</i>
+  <i>&lt;h1&gt;</i>Зрозуміло<i>&lt;/h1&gt;</i>
+  <i>&lt;p&gt;</i>Корисно<i>&lt;/p&gt;</i>
+<i>&lt;/section&gt;</i></code></pre>
+            </div>
+            <div class="art-caption">01 / 03</div>
+          </div>
+        </div>
+        <div class="container hero-bottom">
+          <span>Гортайте вниз</span>
+          <span class="scroll-line"></span>
+          <span>Вибрані роботи й навички</span>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container split-heading">
+          <p class="section-number">01 / про мене</p>
+          <div>
+            <h2>Я лише починаю,<br /><span>але ставлюся до справи серйозно.</span></h2>
+            <p class="section-lead">Кожен проєкт — це можливість розібратися, як працює веб, і перетворити знання на результат, яким хочеться поділитися.</p>
+            <div class="skill-list">
+              <div><span>HTML</span><b>структура</b></div>
+              <div><span>CSS</span><b>візуальне оформлення</b></div>
+              <div><span>JavaScript</span><b>інтерактивність</b></div>
+              <div><span>Адаптивність</span><b>макети для різних екранів</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-number">02 / навчальні концепти</p>
+            <h2>Проєкти,<br /><span>що зростають разом зі мною.</span></h2>
+          </div>
+          <div class="project-grid">
+            <article class="project project-large">
+              <div class="project-visual visual-slate"><span class="visual-tag">01</span><div class="mockup mockup-dashboard"><div></div><div></div><div></div></div></div>
+              <div class="project-info"><div><h3>Мінімалістична панель</h3><p>Лаконічний інтерфейс для роботи з даними.</p><small class="project-tech">HTML · CSS Grid</small></div><span class="project-arrow">↗</span></div>
+            </article>
+            <article class="project">
+              <div class="project-visual visual-lime"><span class="visual-tag">02</span><div class="mockup mockup-shop"><b>ДИЗАЙН<br />ОБ’ЄКТІВ</b><i>нове / 01</i></div></div>
+              <div class="project-info"><div><h3>Дослідження об’єкта</h3><p>Концепт сторінки бренду предметного дизайну.</p><small class="project-tech">HTML · CSS Flexbox</small></div><span class="project-arrow">↗</span></div>
+            </article>
+            <article class="project">
+              <div class="project-visual visual-orange"><span class="visual-tag">03</span><div class="mockup mockup-type">ШРИФТ<br /><em>як форма</em></div></div>
+              <div class="project-info"><div><h3>Типографічний експеримент</h3><p>Поєднання виразної типографіки, кольору й композиції.</p><small class="project-tech">HTML · CSS типографіка</small></div><span class="project-arrow">↗</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-top"><p class="section-number">03 / контакти</p><h2>Маєте ідею?<br /><em>Обговорімо її.</em></h2><a class="contact-link" href="mailto:serega.7odessa@gmail.com">serega.7odessa@gmail.com <span>↗</span></a></div>
+      <div class="container footer-bottom"><span>© 2026 Сергій</span><span>Створено з увагою до деталей</span><a href="#top">На початок ↑</a></div>
+    </footer>
+  </body>
+</html>
