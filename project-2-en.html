@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Minimal Dashboard — a clean interface concept for working with data." />
+    <meta property="og:title" content="Sergey — Frontend Developer | Portfolio" />
+    <meta property="og:description" content="Minimalistic and fast websites with attention to detail" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://layoutartist.github.io/my-first-site/project-2-en.html" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2320201d'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Arial,sans-serif' font-size='42' font-weight='700' fill='%238ee36b'%3ES%3C/text%3E%3C/svg%3E" />
     <title>Minimal Dashboard — Sergey</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,10 +26,13 @@
           <a href="index.html#contact">Contact</a>
         </nav>
         <a class="nav-status" href="index.html#contact"><span></span> Open to projects</a>
-        <nav class="language-switch" aria-label="Choose language">
-          <a href="index.html" lang="en" aria-current="page">EN</a>
-          <a href="project-2.html" lang="uk">UA</a>
-        </nav>
+        <div class="nav-controls">
+          <nav class="language-switch" aria-label="Choose language">
+            <a href="index.html" lang="en" aria-current="page">EN</a>
+            <a href="project-2.html" lang="uk">UA</a>
+          </nav>
+          <button id="theme-toggle" class="theme-btn" type="button" aria-label="Toggle color theme" aria-pressed="false">🌙</button>
+        </div>
       </div>
     </header>
 
@@ -45,18 +53,18 @@
           <p class="section-number">01 / about the project</p>
           <div>
             <h2>Data without<br /><span>the visual noise.</span></h2>
-            <p class="section-lead">A clean interface for working with data. The concept explores how a clear grid, a calm palette, and thoughtful hierarchy can make information easier to understand.</p>
+            <p class="section-lead">An interactive dashboard for monitoring business performance. The main challenge was to strip away visual noise and bring structure to large volumes of data. Built with clean HTML and a flexible CSS Grid layout, the interface keeps charts clear on everything from 4K monitors to smartphone screens. Code optimization helps the site load in an instant.</p>
           </div>
         </div>
       </section>
 
       <section class="case-gallery container" aria-label="Project images">
         <figure class="case-image case-image-feature">
-          <img src="https://picsum.photos/seed/minimal-dashboard/1800/1100" alt="Minimal composition for a data dashboard concept" />
+          <img src="https://picsum.photos/id/1/1800/1100" alt="Minimal composition for a data dashboard concept" />
           <figcaption>01 — Interface visual direction</figcaption>
         </figure>
         <figure class="case-image case-image-detail">
-          <img src="https://picsum.photos/seed/dashboard-details/1200/900" alt="Composition details and a clear visual grid" loading="lazy" />
+          <img src="https://picsum.photos/id/48/1200/900" alt="Composition details and a clear visual grid" loading="lazy" />
           <figcaption>02 — Grid and details</figcaption>
         </figure>
       </section>
@@ -75,17 +83,38 @@
         <div class="contact-links">
           <a class="contact-link" href="mailto:serega.7odessa@gmail.com">serega.7odessa@gmail.com <span>↗</span></a>
           <div class="contact-socials">
-            <a href="https://t.me/serega_dev" target="_blank" rel="noopener noreferrer" aria-label="Telegram" title="Telegram"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
-            <a href="https://github.com/layoutartist" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a class="contact-social-link contact-social-telegram" href="https://t.me/serega_dev" target="_blank" rel="noopener noreferrer" aria-label="Telegram" title="Telegram"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
+            <a class="contact-social-link contact-social-github" href="https://github.com/layoutartist" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a class="contact-social-link contact-social-linkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
       <div class="container footer-bottom">
         <span>© 2026 Sergey</span>
         <span>Made with attention to detail</span>
-        <a href="index.html#top">Back to top ↑</a>
+        <a href="#">Back to top ↑</a>
       </div>
     </footer>
+    <script>
+      const toggleBtn = document.getElementById('theme-toggle');
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-theme');
+        toggleBtn.textContent = '☀️';
+        toggleBtn.setAttribute('aria-pressed', 'true');
+      }
+
+      toggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        if (document.body.classList.contains('dark-theme')) {
+          toggleBtn.textContent = '☀️';
+          toggleBtn.setAttribute('aria-pressed', 'true');
+          localStorage.setItem('theme', 'dark');
+        } else {
+          toggleBtn.textContent = '🌙';
+          toggleBtn.setAttribute('aria-pressed', 'false');
+          localStorage.setItem('theme', 'light');
+        }
+      });
+    </script>
   </body>
 </html>
