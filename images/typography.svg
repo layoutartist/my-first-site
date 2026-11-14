@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100">
+  <rect width="1800" height="1100" fill="#e88159"/>
+  <circle cx="1430" cy="180" r="310" fill="#f0aa78"/>
+  <path d="M0 875h1800v225H0z" fill="#d66c4c"/>
+  <path d="M120 210h1560v8H120zM120 860h1560v8H120z" fill="#20201d" opacity=".5"/>
+  <text x="125" y="735" fill="#20201d" font-family="Arial,sans-serif" font-size="590" font-weight="800" letter-spacing="-48">Aa</text>
+  <text x="145" y="815" fill="#f7efe2" font-family="Arial,sans-serif" font-size="28" letter-spacing="12">TYPE AS FORM  /  STUDY 03</text>
+  <path d="M1370 415h245v245h-245z" fill="#20201d"/>
+  <path d="M1410 455h165v165h-165z" fill="none" stroke="#f7efe2" stroke-width="5"/>
+  <circle cx="1492" cy="537" r="54" fill="#e88159"/>
+</svg>

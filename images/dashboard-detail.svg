@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#263838"/>
+  <rect x="65" y="65" width="1070" height="770" rx="24" fill="#1e2b2b"/>
+  <text x="120" y="155" fill="#dce8df" font-family="Arial,sans-serif" font-size="28" font-weight="700">Weekly activity</text>
+  <text x="120" y="205" fill="#91a69c" font-family="Arial,sans-serif" font-size="18">VISITORS  /  LAST 7 DAYS</text>
+  <path d="M130 660h930M130 560h930M130 460h930M130 360h930" stroke="#435755" stroke-width="2"/>
+  <path d="M150 610l130-80 130 30 130-155 130 62 130-132 130 37 130-90" fill="none" stroke="#91b894" stroke-width="12"/>
+  <path d="M150 610l130-80 130 30 130-155 130 62 130-132 130 37 130-90v390H150z" fill="#91b894" opacity=".16"/>
+  <g fill="#dbe8d9" stroke="#527863" stroke-width="7">
+    <circle cx="150" cy="610" r="12"/><circle cx="280" cy="530" r="12"/><circle cx="410" cy="560" r="12"/><circle cx="540" cy="405" r="12"/><circle cx="670" cy="467" r="12"/><circle cx="800" cy="335" r="12"/><circle cx="930" cy="372" r="12"/><circle cx="1060" cy="282" r="12"/>
+  </g>
+  <g fill="#91a69c" font-family="Arial,sans-serif" font-size="18">
+    <text x="130" y="730">MON</text><text x="270" y="730">TUE</text><text x="400" y="730">WED</text><text x="530" y="730">THU</text><text x="660" y="730">FRI</text><text x="790" y="730">SAT</text><text x="920" y="730">SUN</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100">
+  <rect width="1800" height="1100" fill="#b7c4c1"/>
+  <rect x="190" y="115" width="1420" height="870" rx="26" fill="#1e2b2b"/>
+  <rect x="190" y="115" width="1420" height="92" rx="26" fill="#263838"/>
+  <circle cx="250" cy="161" r="12" fill="#df8362"/>
+  <circle cx="290" cy="161" r="12" fill="#e1bd70"/>
+  <circle cx="330" cy="161" r="12" fill="#8dbd91"/>
+  <text x="395" y="172" fill="#dce8df" font-family="Arial,sans-serif" font-size="25" letter-spacing="5">STUDIO / OVERVIEW</text>
+  <text x="270" y="285" fill="#dce8df" font-family="Arial,sans-serif" font-size="44" font-weight="700">Performance</text>
+  <text x="270" y="335" fill="#91a69c" font-family="Arial,sans-serif" font-size="22">Your business at a glance</text>
+  <rect x="270" y="390" width="340" height="180" rx="12" fill="#324747"/>
+  <rect x="640" y="390" width="340" height="180" rx="12" fill="#324747"/>
+  <rect x="1010" y="390" width="510" height="180" rx="12" fill="#dbe8d9"/>
+  <text x="300" y="438" fill="#a9bbb0" font-family="Arial,sans-serif" font-size="20">REVENUE</text>
+  <text x="300" y="510" fill="#f1f4ec" font-family="Arial,sans-serif" font-size="45" font-weight="700">$48,290</text>
+  <text x="670" y="438" fill="#a9bbb0" font-family="Arial,sans-serif" font-size="20">ACTIVE USERS</text>
+  <text x="670" y="510" fill="#f1f4ec" font-family="Arial,sans-serif" font-size="45" font-weight="700">8,462</text>
+  <text x="1050" y="438" fill="#52695d" font-family="Arial,sans-serif" font-size="20">GROWTH</text>
+  <path d="M1050 530l85-45 77 17 95-77 82 25 86-100" fill="none" stroke="#527863" stroke-width="9"/>
+  <path d="M1050 530l85-45 77 17 95-77 82 25 86-100v130h-425z" fill="#8baa8c" opacity=".28"/>
+  <rect x="270" y="605" width="1250" height="295" rx="12" fill="#263838"/>
+  <text x="310" y="657" fill="#dce8df" font-family="Arial,sans-serif" font-size="24">Weekly activity</text>
+  <path d="M330 830h1120M330 770h1120M330 710h1120" stroke="#435755" stroke-width="2"/>
+  <path d="M365 815l130-65 130 23 130-100 130 50 130-83 130 32 130-53 130 41" fill="none" stroke="#91b894" stroke-width="8"/>
+  <g fill="#91b894"><circle cx="365" cy="815" r="8"/><circle cx="495" cy="750" r="8"/><circle cx="625" cy="773" r="8"/><circle cx="755" cy="673" r="8"/><circle cx="885" cy="723" r="8"/><circle cx="1015" cy="640" r="8"/><circle cx="1145" cy="672" r="8"/><circle cx="1275" cy="619" r="8"/><circle cx="1405" cy="660" r="8"/></g>
+</svg>
